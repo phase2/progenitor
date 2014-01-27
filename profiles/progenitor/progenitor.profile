@@ -1,0 +1,19 @@
+<?php
+/**
+ * @file
+ * Code for the Progenitor installation profile.
+ */
+
+/**
+ * Implements hook_form_alter().
+ *
+ * Allows the profile to alter the site configuration form. Adds a default
+ * value for site name during the configure step of site install.
+ */
+function progenitor_form_alter(&$form, $form_state, $form_id) {
+  if ($form_id == 'install_configure_form') {
+    // Set default for site name field.
+    $form['site_information']['site_name']['#default_value'] = $_SERVER['SERVER_NAME'];
+  }
+}
+

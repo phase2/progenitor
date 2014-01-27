@@ -1,0 +1,32 @@
+name = Progenitor
+description = Installation profile that servers as a starting point or ultimate ancestory for general projects.
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = syslog
+dependencies[] = shortcut
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = dblog
+
+; Contrib
+dependencies[] = views
+
+; Phase2
+dependencies[] = phase2_admin
+dependencies[] = phase2_perf
+dependencies[] = phase2_author
+dependencies[] = phase2_seo
