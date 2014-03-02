@@ -25,11 +25,11 @@ projects[phase2_env][download][type] = git
 projects[phase2_env][download][tag] = 7.x-1.0-alpha1
 projects[phase2_env][download][url] = git@bitbucket.org:phase2tech/phase2_env.git
 
-projects[phase2_author][type] = module
-projects[phase2_author][subdir] = phase2
-projects[phase2_author][download][type] = git
-projects[phase2_author][download][tag] = 7.x-1.0-alpha1
-projects[phase2_author][download][url] = git@bitbucket.org:phase2tech/phase2_author.git
+projects[progenitor_author][type] = module
+projects[progenitor_author][subdir] = phase2
+projects[progenitor_author][download][type] = git
+projects[progenitor_author][download][tag] = 7.x-1.0-alpha2
+projects[progenitor_author][download][url] = git@bitbucket.org:phase2tech/progenitor_author.git
 
 ;; DECISION: Search Integration
 ;;
