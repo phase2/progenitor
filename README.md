@@ -1,8 +1,8 @@
 # Progenitor
 
 Progenitor is a light-weight installation profile that provides a basic starting
-place for Phase2 projects. The intention is for it to serve as a sane, standardized
-default.
+place for Phase2 projects. This is *not a product*, but rather a toolkit and
+showcase. You can read more on the wiki at [Code Reuse](https://wiki.phase2technology.com/display/Deliver/Code+Reuse).
 
 ## Usage
 
