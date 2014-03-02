@@ -2,7 +2,7 @@ api = 2
 core = 7.x
 
 projects[ctools][type] = module
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
 
 projects[entity][type] = module
