@@ -1,11 +1,11 @@
 api = 2
 core = 7.x
 
-projects[phase2_admin][type] = module
-projects[phase2_admin][subdir] = phase2
-projects[phase2_admin][download][type] = git
-projects[phase2_admin][download][tag] = 7.x-1.0-alpha1
-projects[phase2_admin][download][url] = git@bitbucket.org:phase2tech/phase2_admin.git
+projects[progenitor_admin][type] = module
+projects[progenitor_admin][subdir] = progenitor
+projects[progenitor_admin][download][type] = git
+projects[progenitor_admin][download][tag] = 7.x-1.0-alpha2
+projects[progenitor_admin][download][url] = git@bitbucket.org:phase2tech/progenitor_admin.git
 
 projects[phase2_perf][type] = module
 projects[phase2_perf][subdir] = phase2
