@@ -21,6 +21,12 @@ function progenitor_install() {
   // Set this as the administrator role.
   variable_set('user_admin_role', $admin_role->rid);
 
+  // Set the site logo.
+  $theme_settings = variable_get('theme_settings', array());
+  $theme_settings['default_logo'] = 0;
+  $theme_settings['logo_path'] = 'profiles/progenitor/images/p2_logo_rgb.png';
+  variable_set('theme_settings', $theme_settings);
+
   // Assign user 1 the "administrator" role.
   db_insert('users_roles')
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
