@@ -13,7 +13,7 @@
 function progenitor_form_alter(&$form, $form_state, $form_id) {
   if ($form_id == 'install_configure_form') {
     // Set default for site name field.
-    $form['site_information']['site_name']['#default_value'] = $_SERVER['SERVER_NAME'];
+    $form['site_information']['site_name']['#default_value'] = "Progenitor";
   }
 }
 
