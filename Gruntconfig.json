@@ -1,0 +1,10 @@
+{
+  "srcPaths": {
+    "make": "src/build-progenitor.make"
+  },
+  "buildPaths": {
+    "build": "build",
+    "html": "build/html"
+  },
+  "compassConfig": {}
+}
