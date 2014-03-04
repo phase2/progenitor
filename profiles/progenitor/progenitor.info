@@ -25,8 +25,8 @@ dependencies[] = dblog
 ; Contrib
 dependencies[] = views
 
-; Phase2
-dependencies[] = phase2_admin
+; Progenitor
+dependencies[] = progenitor_admin
 dependencies[] = phase2_perf
-dependencies[] = phase2_author
+dependencies[] = progenitor_author
 dependencies[] = phase2_seo
