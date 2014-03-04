@@ -1,0 +1,24 @@
+# Patch output.
+*.diff
+*.orig
+*.rej
+interdiff*.txt
+
+# Local caches.
+.sass-cache
+
+# emacs artifacts
+*~
+\#*\#
+
+# VI swap file
+*.swp
+
+# Hidden files.
+.DS*
+.project
+.idea
+
+# Dependency Mgmt
+vendor
+node_modules
