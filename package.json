@@ -1,0 +1,10 @@
+{
+  "name": "Progenitor",
+  "description": "Phase2's showcase Drupal foundation.",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "drupal-grunt-starter": "git+ssh://git@bitbucket.org:phase2tech/drupal-grunt-starter.git"
+  }
+}
