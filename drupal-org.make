@@ -13,7 +13,7 @@ projects[views][type] = module
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
 ; Double translation invoked on Node Type handlers.
-projects[views][patch][2133653] = https://drupal.org/files/issues/2133653-views_node_type_name-7.patch
+projects[views][patch][2133653] = http://drupal.org/files/issues/2133653-views_node_type_name-7.patch
 
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.x-dev
