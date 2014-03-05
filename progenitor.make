@@ -4,7 +4,7 @@ core = 7.x
 projects[progenitor_admin][type] = module
 projects[progenitor_admin][subdir] = progenitor
 projects[progenitor_admin][download][type] = git
-projects[progenitor_admin][download][tag] = 7.x-1.0-alpha2
+projects[progenitor_admin][download][tag] = 7.x-1.0-alpha3
 projects[progenitor_admin][download][url] = git@bitbucket.org:phase2tech/progenitor_admin.git
 
 projects[phase2_perf][type] = module
