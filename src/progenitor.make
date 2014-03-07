@@ -16,13 +16,13 @@ projects[progenitor_perf][download][url] = git@bitbucket.org:phase2tech/progenit
 projects[progenitor_seo][type] = module
 projects[progenitor_seo][subdir] = progenitor
 projects[progenitor_seo][download][type] = git
-projects[progenitor_seo][download][tag] = 7.x-1.0-alpha1
+projects[progenitor_seo][download][tag] = 7.x-1.0-alpha2
 projects[progenitor_seo][download][url] = git@bitbucket.org:phase2tech/progenitor_seo.git
 
 projects[progenitor_env][type] = module
 projects[progenitor_env][subdir] = progenitor
 projects[progenitor_env][download][type] = git
-projects[progenitor_env][download][tag] = 7.x-1.0-alpha1
+projects[progenitor_env][download][tag] = 7.x-1.0-alpha2
 projects[progenitor_env][download][url] = git@bitbucket.org:phase2tech/progenitor_env.git
 
 projects[progenitor_author][type] = module
@@ -41,5 +41,5 @@ projects[progenitor_author][download][url] = git@bitbucket.org:phase2tech/progen
 ;projects[progenitor_search][type] = module
 ;projects[progenitor_search][subdir] = progenitor
 ;projects[progenitor_search][download][type] = git
-;projects[progenitor_search][download][tag] = 7.x-1.0-alpha1
+;projects[progenitor_search][download][tag] = 7.x-1.0-alpha2
 ;projects[progenitor_search][download][url] = git@bitbucket.org:phase2tech/progenitor_search.git
