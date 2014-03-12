@@ -22,7 +22,7 @@ projects[progenitor_seo][download][url] = git@bitbucket.org:phase2tech/progenito
 projects[progenitor_env][type] = module
 projects[progenitor_env][subdir] = progenitor
 projects[progenitor_env][download][type] = git
-projects[progenitor_env][download][tag] = 7.x-1.0-alpha2
+projects[progenitor_env][download][tag] = 7.x-1.0-alpha3
 projects[progenitor_env][download][url] = git@bitbucket.org:phase2tech/progenitor_env.git
 
 projects[progenitor_author][type] = module
