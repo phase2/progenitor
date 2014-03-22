@@ -33,9 +33,11 @@ projects[pressflow][patch][1050568] = http://drupal.org/files/issues/entity_load
 projects[ctools][type] = module
 projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
+; Preserves exposed pager form values on AJAX-driven Views.
+projects[ctools][patch][1910608] = http://drupal.org/files/issues/1910608-views_content-ajax-13.patch
 
 projects[entity][type] = module
-projects[entity][version] = 1.3
+projects[entity][version] = 1.4
 projects[entity][subdir] = contrib
 
 projects[views][type] = module
@@ -43,6 +45,10 @@ projects[views][version] = 3.7
 projects[views][subdir] = contrib
 ; Double translation invoked on Node Type handlers.
 projects[views][patch][2133653] = http://drupal.org/files/issues/2133653-views_node_type_name-7.patch
+; Stale Views integration configuration when multiple modules enabled. Facilitates install profile testing.
+projects[views][patch][1979926] = http://drupal.org/files/1979926-views-reset_fetch_data-2.patch
+; Support multiple of the same view/display on a page so each one can have an their own exposed form. (AJAX)
+projects[views][patch][1735096] = http://drupal.org/files/1735096-views-mltiple-instance-exposed-form-8.patch
 
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.x-dev
