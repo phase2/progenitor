@@ -30,3 +30,4 @@ dependencies[] = progenitor_admin
 dependencies[] = progenitor_perf
 dependencies[] = progenitor_author
 dependencies[] = progenitor_seo
+dependencies[] = progenitor_security
