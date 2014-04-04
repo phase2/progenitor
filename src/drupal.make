@@ -28,6 +28,9 @@ projects[pressflow][patch][1093420] = http://drupal.org/files/1093420-22.patch
 ; Allow entitycache to clear cache.
 projects[pressflow][patch][1050568] = http://drupal.org/files/issues/entity_load_reset.patch
 
+; Boost performance of site install by avoiding unecessary repeat registry rebuilding.
+projects[pressflow][patch][1470656] = http://drupal.org/files/drupal-1470656-14.patch
+
 ;; Contrib modules that add essential functionality to Drupal Core.
 
 projects[ctools][type] = module
