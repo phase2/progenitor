@@ -27,6 +27,6 @@ dependencies[] = views
 
 ; Progenitor
 dependencies[] = progenitor_admin
-dependencies[] = phase2_perf
+dependencies[] = progenitor_perf
 dependencies[] = progenitor_author
-dependencies[] = phase2_seo
+dependencies[] = progenitor_seo
