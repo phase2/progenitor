@@ -41,6 +41,14 @@ projects[progenitor_author][download][type] = git
 projects[progenitor_author][download][tag] = 7.x-1.0-alpha4
 projects[progenitor_author][download][url] = git@bitbucket.org:phase2tech/progenitor_author.git
 
+; Progenitor Security
+; Provides security improvements out-of-box.
+projects[progenitor_security][type] = module
+projects[progenitor_security][subdir] = progenitor
+projects[progenitor_security][download][type] = git
+projects[progenitor_security][download][tag] = 7.x-1.0-alpha1
+projects[progenitor_security][download][url] = git@bitbucket.org:phase2tech/progenitor_security.git
+
 ;; DECISION: Search Integration
 ;;
 ;; If the site needs advanced search, Phase2's standard practices are to use
