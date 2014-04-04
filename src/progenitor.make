@@ -53,3 +53,16 @@ projects[progenitor_author][download][url] = git@bitbucket.org:phase2tech/progen
 ;projects[progenitor_search][download][type] = git
 ;projects[progenitor_search][download][tag] = 7.x-1.0-alpha2
 ;projects[progenitor_search][download][url] = git@bitbucket.org:phase2tech/progenitor_search.git
+
+;; DECISION: Media Handling
+;;
+;; If your project is going to use Media module, use this package. There is
+;; curently no tagged release because the specific module versions have never
+;; been activated and configured to confirm this works.
+
+projects[progenitor_media][type] = module
+projects[progenitor_media][version] = 1.x-dev
+projects[progenitor_media][subdir] = progenitor
+projects[progenitor_media][download][type] = git
+projects[progenitor_media][download][branch] = 7.x-1.x
+projects[progenitor_media][download][url] = git@bitbucket.org:phase2tech/progenitor_media.git
