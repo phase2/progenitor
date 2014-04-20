@@ -47,6 +47,16 @@ projects[token][type] = module
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
+projects[features][type] = module
+projects[features][subdir] = contrib
+projects[features][version] = 2.x-dev
+; Revision includes hook_node_info_alter(), feature component locking.
+projects[features][download][type] = git
+projects[features][download][url] = http://git.drupal.org/project/features.git
+projects[features][download][revision] = ffb97cc8f23388b2cf06a84fe66793e97fc66627
+; Allow content type labels to be exported without translation.
+projects[features][patch][2138857] = http://drupal.org/files/issues/2138857-features-de-t-1.patch
+
 projects[views][type] = module
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
