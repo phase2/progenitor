@@ -43,6 +43,10 @@ projects[entity][type] = module
 projects[entity][version] = 1.5
 projects[entity][subdir] = contrib
 
+projects[token][type] = module
+projects[token][subdir] = contrib
+projects[token][version] = 1.5
+
 projects[views][type] = module
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
