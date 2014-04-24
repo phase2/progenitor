@@ -46,7 +46,7 @@ projects[progenitor_author][download][url] = git@bitbucket.org:phase2tech/progen
 projects[progenitor_security][type] = module
 projects[progenitor_security][subdir] = progenitor
 projects[progenitor_security][download][type] = git
-projects[progenitor_security][download][tag] = 7.x-1.0-alpha1
+projects[progenitor_security][download][tag] = 7.x-1.0-alpha2
 projects[progenitor_security][download][url] = git@bitbucket.org:phase2tech/progenitor_security.git
 
 ;; DECISION: Search Integration
