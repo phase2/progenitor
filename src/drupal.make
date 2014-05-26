@@ -58,7 +58,7 @@ projects[features][download][revision] = ffb97cc8f23388b2cf06a84fe66793e97fc6662
 projects[features][patch][2138857] = http://drupal.org/files/issues/2138857-features-de-t-1.patch
 
 projects[views][type] = module
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 projects[views][subdir] = contrib
 ; Double translation invoked on Node Type handlers.
 projects[views][patch][2133653] = http://drupal.org/files/issues/2133653-views_node_type_name-7.patch
