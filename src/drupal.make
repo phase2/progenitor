@@ -3,33 +3,30 @@ core = 7.x
 
 ;; Define Drupal Core
 
-; Use Pressflow for configuration via environment.
-projects[pressflow][type] = core
-projects[pressflow][download][type] = git
-projects[pressflow][download][url] = https://github.com/pressflow/7.git
-projects[pressflow][download][tag] = 7.27
+projects[drupal][type] = core
+projects[drupal][version] = 7.28
 
-; Fix notices on PHP 5.4 and editing nodes with multiple terms.
-projects[pressflow][patch][1525176] = http://drupal.org/files/issues/drupal7.entity-system.1525176-143.patch
+; Allow settings to be injected via environment.
+projects[drupal][patch][1830816] = http://drupal.org/files/issues/D7-1830816-13-environment_settings-do-not-test.patch
 
 ; Raise minimum PHP version to work around core requirements check bug.
 ; Keep eyeballs posted on http://drupal.org/node/1724130.
-projects[pressflow][patch][1724012] = http://drupal.org/files/drupal-increase-php-version-1724012_0.patch
+projects[drupal][patch][1724012] = http://drupal.org/files/drupal-increase-php-version-1724012_0.patch
 
 ; Patch for handling inherited profiles
-projects[pressflow][patch][1356276] = http://www.drupal.org/files/1356276-make-D7-21-redux.patch
+projects[drupal][patch][1356276] = http://www.drupal.org/files/1356276-make-D7-21-redux.patch
 
 ; Patch to fix AJAX auto-complete alert error on early submit.
-projects[pressflow][patch][254477] = http://www.drupal.org/files/autocomplete-cancel-254477-8.patch
+projects[drupal][patch][254477] = http://www.drupal.org/files/autocomplete-cancel-254477-8.patch
 
 ; Patch to allow install profile enabling to enable dependencies correctly.
-projects[pressflow][patch][1093420] = http://drupal.org/files/1093420-22.patch
+projects[drupal][patch][1093420] = http://drupal.org/files/1093420-22.patch
 
 ; Allow entitycache to clear cache.
-projects[pressflow][patch][1050568] = http://drupal.org/files/issues/entity_load_reset.patch
+projects[drupal][patch][1050568] = http://drupal.org/files/issues/entity_load_reset.patch
 
 ; Boost performance of site install by avoiding unecessary repeat registry rebuilding.
-projects[pressflow][patch][1470656] = http://drupal.org/files/drupal-1470656-14.patch
+projects[drupal][patch][1470656] = http://drupal.org/files/drupal-1470656-14.patch
 
 ;; Contrib modules that add essential functionality to Drupal Core.
 
