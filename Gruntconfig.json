@@ -1,6 +1,6 @@
 {
   "srcPaths": {
-    "make": "src/build-progenitor.make"
+    "make": "project.make"
   },
   "buildPaths": {
     "build": "build",
