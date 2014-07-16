@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 7.x-1.0-alpha11
+
+* Update core to 7.29; see [https://www.drupal.org/SA-CORE-2014-003](https://www.drupal.org/SA-CORE-2014-003)
+
 ## 7.x-1.0-alpha10
 
 * Switch from Pressflow to vanilla Drupal.
