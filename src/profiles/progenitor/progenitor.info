@@ -25,6 +25,8 @@ dependencies[] = dblog
 ; Contrib
 dependencies[] = views
 dependencies[] = token
+dependencies[] = features
+dependencies[] = strongarm
 
 ; Progenitor
 dependencies[] = progenitor_admin
