@@ -1,10 +1,20 @@
 {
   "srcPaths": {
-    "make": "project.make"
+    "make": "project.make",
+    "drupal": "src"
   },
   "buildPaths": {
     "build": "build",
-    "html": "build/html"
+    "html": "build/html",
+    "package": "build/package",
+    "reports": "build/reports"
+  },
+  "phpcs": {
+    "path": "vendor/bin/phpcs",
+    "standard": "vendor/drupal/coder/coder_sniffer/Drupal"
+  },
+  "phpmd": {
+    "path": "vendor/bin/phpmd"
   },
   "compassConfig": {}
 }
