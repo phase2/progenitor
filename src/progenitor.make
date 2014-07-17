@@ -6,7 +6,7 @@ core = 7.x
 projects[progenitor_admin][type] = module
 projects[progenitor_admin][subdir] = progenitor
 projects[progenitor_admin][download][type] = git
-projects[progenitor_admin][download][tag] = 7.x-1.0-alpha5
+projects[progenitor_admin][download][tag] = 7.x-1.0-alpha6
 projects[progenitor_admin][download][url] = git@bitbucket.org:phase2tech/progenitor_admin.git
 
 ; Progenitor Performance
@@ -38,7 +38,7 @@ projects[progenitor_env][download][url] = git@bitbucket.org:phase2tech/progenito
 projects[progenitor_author][type] = module
 projects[progenitor_author][subdir] = progenitor
 projects[progenitor_author][download][type] = git
-projects[progenitor_author][download][tag] = 7.x-1.0-alpha5
+projects[progenitor_author][download][tag] = 7.x-1.0-alpha6
 projects[progenitor_author][download][url] = git@bitbucket.org:phase2tech/progenitor_author.git
 
 ; Progenitor Security
@@ -46,7 +46,7 @@ projects[progenitor_author][download][url] = git@bitbucket.org:phase2tech/progen
 projects[progenitor_security][type] = module
 projects[progenitor_security][subdir] = progenitor
 projects[progenitor_security][download][type] = git
-projects[progenitor_security][download][tag] = 7.x-1.0-alpha2
+projects[progenitor_security][download][tag] = 7.x-1.0-alpha3
 projects[progenitor_security][download][url] = git@bitbucket.org:phase2tech/progenitor_security.git
 
 ;; DECISION: Search Integration
