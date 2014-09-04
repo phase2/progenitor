@@ -6,6 +6,10 @@ core = 7.x
 dependencies[] = block
 dependencies[] = contextual
 dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
 dependencies[] = help
 dependencies[] = image
 dependencies[] = list
@@ -13,25 +17,21 @@ dependencies[] = menu
 dependencies[] = number
 dependencies[] = options
 dependencies[] = path
-dependencies[] = taxonomy
+dependencies[] = rdf
 dependencies[] = syslog
 dependencies[] = shortcut
-dependencies[] = field
-dependencies[] = field_ui
-dependencies[] = file
-dependencies[] = rdf
-dependencies[] = dblog
+dependencies[] = taxonomy
 
 ; Contrib
 dependencies[] = distro_update
-dependencies[] = views
-dependencies[] = token
-dependencies[] = features
 dependencies[] = strongarm
+dependencies[] = features
+dependencies[] = token
+dependencies[] = views
 
 ; Progenitor
 dependencies[] = progenitor_admin
-dependencies[] = progenitor_perf
 dependencies[] = progenitor_author
-dependencies[] = progenitor_seo
+dependencies[] = progenitor_perf
 dependencies[] = progenitor_security
+dependencies[] = progenitor_seo
