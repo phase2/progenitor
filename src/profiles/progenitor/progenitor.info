@@ -23,6 +23,7 @@ dependencies[] = rdf
 dependencies[] = dblog
 
 ; Contrib
+dependencies[] = distro_update
 dependencies[] = views
 dependencies[] = token
 dependencies[] = features

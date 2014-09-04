@@ -73,3 +73,7 @@ projects[jquery_update][download][url] = http://git.drupal.org/project/jquery_up
 projects[jquery_update][download][revision] = 65eecb0f1fc69cf6831a66440f72e33a1effb1f3
 ; jQuery effects code is broken.
 projects[jquery_update][patch][2123973] = http://www.drupal.org/files/issues/jquery_effects_missing-2123973-3_0.patch
+
+projects[distro_update][type] = module
+projects[distro_update][version] = 1.0-beta3
+projects[distro_update][subdir] = contrib
