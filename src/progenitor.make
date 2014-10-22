@@ -22,7 +22,7 @@ projects[progenitor_perf][download][url] = git@bitbucket.org:phase2tech/progenit
 projects[progenitor_seo][type] = module
 projects[progenitor_seo][subdir] = progenitor
 projects[progenitor_seo][download][type] = git
-projects[progenitor_seo][download][tag] = 7.x-1.0-alpha6
+projects[progenitor_seo][download][tag] = 7.x-1.0-alpha7
 projects[progenitor_seo][download][url] = git@bitbucket.org:phase2tech/progenitor_seo.git
 
 ; Progenitor Environment
@@ -38,7 +38,7 @@ projects[progenitor_env][download][url] = git@bitbucket.org:phase2tech/progenito
 projects[progenitor_author][type] = module
 projects[progenitor_author][subdir] = progenitor
 projects[progenitor_author][download][type] = git
-projects[progenitor_author][download][tag] = 7.x-1.0-alpha7
+projects[progenitor_author][download][tag] = 7.x-1.0-alpha9
 projects[progenitor_author][download][url] = git@bitbucket.org:phase2tech/progenitor_author.git
 
 ; Progenitor Security
