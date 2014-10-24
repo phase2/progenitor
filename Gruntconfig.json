@@ -15,6 +15,5 @@
   },
   "phpmd": {
     "path": "vendor/bin/phpmd"
-  },
-  "compassConfig": {}
+  }
 }
