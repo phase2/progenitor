@@ -48,7 +48,7 @@ projects[features][type] = module
 projects[features][subdir] = contrib
 projects[features][version] = 2.2
 ; Allow content type labels to be exported without translation.
-projects[features][patch][2138857] = http://drupal.org/files/issues/2138857-features-de-t-1.patch
+projects[features][patch][2138857] = http://www.drupal.org/files/issues/2138857-features-de-t-2.patch
 
 projects[strongarm][type] = module
 projects[strongarm][subdir] = contrib
