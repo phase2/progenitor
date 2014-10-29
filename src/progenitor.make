@@ -8,7 +8,7 @@ defaults[projects][type] = module
 ; Provides site enhancements oriented at Administrator UX and efficiency.
 projects[progenitor_admin][version] = 1.x-dev
 projects[progenitor_admin][download][type] = git
-projects[progenitor_admin][download][tag] = 7.x-1.0-alpha6
+projects[progenitor_admin][download][tag] = 7.x-1.0-alpha9
 projects[progenitor_admin][download][url] = git@github.com:phase2/progenitor_admin.git
 
 ; Progenitor Performance
@@ -43,7 +43,7 @@ projects[progenitor_author][download][url] = git@github.com:phase2/progenitor_au
 ; Provides security improvements out-of-box.
 projects[progenitor_security][version] = 1.x-dev
 projects[progenitor_security][download][type] = git
-projects[progenitor_security][download][tag] = 7.x-1.0-alpha3
+projects[progenitor_security][download][tag] = 7.x-1.0-alpha4
 projects[progenitor_security][download][url] = git@github.com:phase2/progenitor_security.git
 
 ;; DECISION: Search Integration
