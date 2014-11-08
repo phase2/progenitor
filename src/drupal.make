@@ -7,7 +7,7 @@ defaults[projects][type] = module
 ;; Define Drupal Core
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.32
+projects[drupal][version] = 7.33
 
 ; Allow settings to be injected via environment.
 projects[drupal][patch][1830816] = http://drupal.org/files/issues/D7-1830816-13-environment_settings-do-not-test.patch
