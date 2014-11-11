@@ -31,6 +31,9 @@ projects[drupal][patch][1050568] = http://drupal.org/files/issues/entity_load_re
 ; Boost performance of site install by avoiding unecessary repeat registry rebuilding.
 projects[drupal][patch][1470656] = http://drupal.org/files/drupal-1470656-14.patch
 
+; Fix for node view inside nodes view.
+projects[drupal][patch][564642] = https://www.drupal.org/files/drupal-recursive-error-when-rebuilding-node-build-564642-45.patch
+
 ;; Contrib modules that add essential functionality to Drupal Core.
 
 projects[distro_update][version] = 1.0-beta3
