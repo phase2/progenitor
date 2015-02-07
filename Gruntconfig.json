@@ -7,11 +7,11 @@
     "build": "build",
     "html": "build/html",
     "package": "build/package",
-    "reports": "build/reports"
+    "reports": "build/reports",
+    "temp": "build/temp"
   },
   "phpcs": {
-    "path": "vendor/bin/phpcs",
-    "standard": "vendor/drupal/coder/coder_sniffer/Drupal"
+    "path": "vendor/bin/phpcs"
   },
   "phpmd": {
     "path": "vendor/bin/phpmd"
