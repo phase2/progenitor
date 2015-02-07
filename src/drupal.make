@@ -7,7 +7,7 @@ defaults[projects][type] = module
 ;; Define Drupal Core
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.33
+projects[drupal][version] = 7.34
 
 ; Allow settings to be injected via environment.
 projects[drupal][patch][1830816] = http://drupal.org/files/issues/D7-1830816-13-environment_settings-do-not-test.patch
@@ -36,7 +36,7 @@ projects[drupal][patch][564642] = https://www.drupal.org/files/drupal-recursive-
 
 ;; Contrib modules that add essential functionality to Drupal Core.
 
-projects[distro_update][version] = 1.0-beta3
+projects[distro_update][version] = 1.0-beta4
 projects[entity][version] = 1.5
 projects[token][version] = 1.5
 projects[strongarm][version] = 2.0
@@ -45,7 +45,7 @@ projects[ctools][version] = 1.4
 ; Preserves exposed pager form values on AJAX-driven Views.
 projects[ctools][patch][1910608] = http://drupal.org/files/issues/1910608-views_content-ajax-13.patch
 
-projects[features][version] = 2.2
+projects[features][version] = 2.3
 ; Allow content type labels to be exported without translation.
 projects[features][patch][2138857] = http://www.drupal.org/files/issues/2138857-features-de-t-2.patch
 
