@@ -15,5 +15,8 @@
   },
   "phpmd": {
     "path": "vendor/bin/phpmd"
+  },
+  "drush": {
+    "cmd": "vendor/bin/drush"
   }
 }
