@@ -1,6 +1,7 @@
 {
     "name": "Progenitor",
     "description": "Progenitor is a light-weight installation profile that provides a basic starting place for Phase2 projects.",
+    "version": "0.4.2",
     "require-dev": {
         "drush/drush": "dev-master",
         "phpmd/phpmd": "~2.1",
