@@ -43,7 +43,7 @@ projects[strongarm][version] = 2.0
 
 projects[ctools][version] = 1.7
 ; Preserves exposed pager form values on AJAX-driven Views.
-projects[ctools][patch][1910608] = http://drupal.org/files/issues/1910608-views_content-ajax-13.patch
+projects[ctools][patch][1910608] =  http://www.drupal.org/files/issues/views_content-ajax-1910608-29.patch
 
 projects[features][version] = 2.4
 ; Allow content type labels to be exported without translation.
