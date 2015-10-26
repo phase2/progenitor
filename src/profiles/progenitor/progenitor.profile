@@ -23,7 +23,8 @@ function progenitor_form_alter(&$form, $form_state, $form_id) {
  * Implements hook_update_status_alter().
  */
 function progenitor_update_status_alter(&$projects) {
-  // Progenitor projects do not currently support the update system. Identify by project name.
+  // Progenitor projects do not currently support the update system.
+  // Identify by project name.
   foreach ($projects as $project_name => $project_info) {
     if (strpos($project_name, 'progenitor') !== FALSE) {
       unset($projects[$project_name]);

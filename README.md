@@ -37,3 +37,9 @@ A Stack project may be a Drupal module, but ultimately all it needs is a README 
 * [Progenitor Search](http://github.com/phase2/progenitor_search)
 * [Progenitor Security](http://github.com/phase2/progenitor_security)
 * [Progenitor SEO](http://github.com/phase2/progenitor_seo)
+
+### Alternate Solutions
+
+* [Progenitor ApacheSolr](http://github.com/phase2/progenitor_apachesolr) (alternative to Search)
+* [Progenitor ElasticSearch](http://github.com/phase2/progenitor_elasticsearch) (alternative to Search)
+

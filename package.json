@@ -1,10 +1,10 @@
 {
   "name": "Progenitor",
   "description": "Phase2's showcase Drupal foundation.",
-  "version": "0.4.2",
+  "version": "0.5.2",
   "private": true,
   "dependencies": {
     "grunt": "~0.4.2",
-    "grunt-drupal-tasks": "0.5.2"
+    "grunt-drupal-tasks": "0.8.0"
   }
 }
