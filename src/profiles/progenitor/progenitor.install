@@ -11,7 +11,8 @@ function progenitor_install() {
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content'));
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));
 
-  // Create a default role for site administrators, with all available permissions assigned.
+  // Create a default role for site administrators, with all available
+  // permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
   $admin_role->weight = 2;

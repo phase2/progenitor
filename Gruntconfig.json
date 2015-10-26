@@ -3,13 +3,6 @@
     "make": "project.make",
     "drupal": "src"
   },
-  "buildPaths": {
-    "build": "build",
-    "html": "build/html",
-    "package": "build/package",
-    "reports": "build/reports",
-    "temp": "build/temp"
-  },
   "phpcs": {
     "path": "vendor/bin/phpcs"
   },
@@ -18,5 +11,6 @@
   },
   "drush": {
     "cmd": "vendor/bin/drush"
-  }
+  },
+  "eslint": true
 }
